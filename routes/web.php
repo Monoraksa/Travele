@@ -12,12 +12,33 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Frontend User 
 Route::get('/', function () {
-    return view('welcome');
+    return view('travel.index');
+})->name('travel.index');
+Route::get('/about', function(){
+    return view('travel.about');
+});
+Route::get('/destination', function(){
+    return view('travel.destination');
+});
+Route::get('/hotel-resto', function(){
+    return view('travel.hotel-resto');
+});
+Route::get('/contact', function(){
+    return view('travel.contact');
 });
 
-Route :: get('/Travele','TraveleController@index');
-Route :: get('/hotelresto','TraveleController@hotelresto');
-Route :: get('/destination','TraveleController@destination');
+
+
+// Admin 
+Route::get('/dashboard', function(){
+    return view('admin.index');
+});
+
+
+
+// Route :: get('/Travele','TraveleController@index');
+// Route :: get('/hotelresto','TraveleController@hotelresto');
+// Route :: get('/destination','TraveleController@destination');
 
