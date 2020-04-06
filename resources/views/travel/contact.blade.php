@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="/travel/css/css/contain.css">
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -40,8 +42,8 @@
 	          <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="{{ url('/destination') }}" class="nav-link">Destination</a></li>
 	          <li class="nav-item"><a href="{{ url('/hotel-resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
-	          <li class="nav-item"><a href="{{ url('/contact') }}" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>
+	          <li class="nav-item cta"><a href="{{ url('/contact') }}" class="nav-link">Book now</a></li>
+	          <!-- <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li> -->
 				
 	        </ul>
 	      </div>
@@ -54,8 +56,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Contact Information</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">Book ticket</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Book now<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -106,7 +108,7 @@
 			
 		<section class="ftco-section contact-section">
       <div class="container">
-        <div class="row block-9">
+        <div class="row block-12">
           <div class="col-md-6 order-md-last d-flex">
             <form action="#" class="bg-light p-5 contact-form">
               <div class="form-group">
@@ -116,23 +118,36 @@
                 <input type="text" class="form-control" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="Your Destination">
               </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              
+              <!-- <div class="form-group">
+
               </div>
+              check-in and check-out
+            -->
+            <div class="form-group">
+  <input id="dp1" type="text" class="form-control clickable input-md" id="DtChkIn" placeholder="&#xf133;  Check-In">
+</div>
+<div class="form-group">
+  <input id="dp2" type="text" class="form-control clickable input-md" id="DtChkOut" placeholder="&#xf133;  Check-Out">
+</div>
+
+
+
+
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" value="total price" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
           </div>
 
-          <div class="col-md-6 d-flex">
+          <!-- <div class="col-md-6 d-flex">
           	<div id="map" class="bg-white"></div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">
@@ -229,7 +244,7 @@
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
@@ -240,8 +255,11 @@
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
+  <script src="/travel/js/contain.js"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+ 
+  
+  <!-- <script src="js/google-map.js"></script> -->
   <script src="js/main.js"></script>
     
   </body>

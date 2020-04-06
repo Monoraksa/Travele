@@ -35,6 +35,9 @@ Route::get('/contact', function(){
 Route::get('/dashboard', function(){
     return view('admin.index');
 });
+Route::get('/book',function(){
+    return view('admin.book');
+});
 
 
 

@@ -47,7 +47,7 @@
       </li>
 
       <!-- Divider -->
-      <hr class="sidebar-divider">
+      <!-- <hr class="sidebar-divider"> -->
 
       <!-- Heading -->
       <div class="sidebar-heading">
@@ -87,12 +87,12 @@
       </li>
 
       <!-- Divider -->
-      <hr class="sidebar-divider">
+      <!-- <hr class="sidebar-divider"> -->
 
       <!-- Heading -->
-      <div class="sidebar-heading">
+      <!-- <div class="sidebar-heading">
         Addons
-      </div>
+      </div> -->
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
@@ -132,11 +132,11 @@
       <hr class="sidebar-divider d-none d-md-block">
 
       <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
+      <!-- <!-- <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+      </div> -->
 
-    </ul>
+    </ul> -->
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
@@ -166,9 +166,9 @@
           </form>
 
           <!-- Topbar Navbar -->
-          <ul class="navbar-nav ml-auto">
+          <!-- <ul class="navbar-nav ml-auto"> -->
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            Nav Item - Search Dropdown (Visible Only XS)
             <li class="nav-item dropdown no-arrow d-sm-none">
               <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-search fa-fw"></i>
@@ -189,14 +189,14 @@
             </li>
 
             <!-- Nav Item - Alerts -->
-            <li class="nav-item dropdown no-arrow mx-1">
+            <!-- <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
+                <i class="fas fa-bell fa-fw"></i> -->
                 <!-- Counter - Alerts -->
-                <span class="badge badge-danger badge-counter">3+</span>
-              </a>
+                <!-- <span class="badge badge-danger badge-counter">3+</span>
+              </a> -->
               <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+              <!-- <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                 <h6 class="dropdown-header">
                   Alerts Center
                 </h6>
@@ -235,17 +235,17 @@
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
               </div>
-            </li>
+            </li> -->
 
             <!-- Nav Item - Messages -->
-            <li class="nav-item dropdown no-arrow mx-1">
+            <!-- <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
+                <i class="fas fa-envelope fa-fw"></i> -->
                 <!-- Counter - Messages -->
-                <span class="badge badge-danger badge-counter">7</span>
-              </a>
+                <!-- <span class="badge badge-danger badge-counter">7</span>
+              </a> -->
               <!-- Dropdown - Messages -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+              <!-- <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
                 <h6 class="dropdown-header">
                   Message Center
                 </h6>
@@ -293,16 +293,16 @@
               </div>
             </li>
 
-            <div class="topbar-divider d-none d-sm-block"></div>
+            <div class="topbar-divider d-none d-sm-block"></div> -->
 
             <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
+            <!-- <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
-              </a>
+              </a> -->
               <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+              <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
@@ -320,7 +320,7 @@
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
                 </a>
-              </div>
+              </div> -->
             </li>
 
           </ul>
@@ -329,17 +329,17 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-        <div class="container-fluid">
+        <!-- <div class="container-fluid"> -->
 
           <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+          <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Cards</h1>
           </div>
 
-          <div class="row">
+          <div class="row"> -->
 
             <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <!-- <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -353,10 +353,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <!-- <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-success shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -370,10 +370,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <!-- <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-info shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -396,10 +396,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <!-- <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-left-warning shadow h-100 py-2">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
@@ -418,20 +418,20 @@
 
           <div class="row">
 
-            <div class="col-lg-6">
+            <div class="col-lg-6"> -->
 
               <!-- Default Card Example -->
-              <div class="card mb-4">
+              <!-- <div class="card mb-4">
                 <div class="card-header">
                   Default Card Example
                 </div>
                 <div class="card-body">
                   This card uses Bootstrap's default styling with no utility classes added. Global styles are the only things modifying the look and feel of this default card example.
                 </div>
-              </div>
+              </div> -->
 
               <!-- Basic Card Example -->
-              <div class="card shadow mb-4">
+              <!-- <div class="card shadow mb-4">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
                 </div>
@@ -442,12 +442,12 @@
 
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6"> -->
 
               <!-- Dropdown Card Example -->
-              <div class="card shadow mb-4">
+              <!-- <div class="card shadow mb-4"> -->
                 <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <!-- <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Dropdown Card Example</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -461,21 +461,21 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- Card Body -->
-                <div class="card-body">
+                <!-- <div class="card-body">
                   Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu.
                 </div>
-              </div>
+              </div> -->
 
               <!-- Collapsable Card Example -->
-              <div class="card shadow mb-4">
+              <!-- <div class="card shadow mb-4"> -->
                 <!-- Card Header - Accordion -->
-                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                <!-- <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="collapseCardExample">
                   <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
-                </a>
+                </a> -->
                 <!-- Card Content - Collapse -->
-                <div class="collapse show" id="collapseCardExample">
+                <!-- <div class="collapse show" id="collapseCardExample">
                   <div class="card-body">
                     This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
                   </div>
@@ -486,20 +486,20 @@
 
           </div>
 
-        </div>
+        </div> -->
         <!-- /.container-fluid -->
 
       </div>
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <footer class="sticky-footer bg-white">
+      <!-- <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
             <span>Copyright &copy; Your Website 2019</span>
           </div>
         </div>
-      </footer>
+      </footer> -->
       <!-- End of Footer -->
 
     </div>
@@ -514,7 +514,7 @@
   </a>
 
   <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -530,14 +530,14 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
   <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
