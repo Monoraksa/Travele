@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Traveland - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Traveland</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,11 +27,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="/travel/css/css/contain.css">
+    
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span>Travelo</span></a>
+	      <a class="navbar-brand" href="{{ url('/') }}"><span>Travelo</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -41,7 +42,7 @@
 	          <li class="nav-item active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="{{ url('/destination') }}" class="nav-link">Destination</a></li>
-	          <li class="nav-item"><a href="{{ url('/hotel-resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
+	          <li class="nav-item"><a href="{{ url('/hotel_resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
 	          <li class="nav-item cta"><a href="{{ url('/contact') }}" class="nav-link">Book now</a></li>
 	          <!-- <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li> -->
 				
@@ -63,6 +64,9 @@
       </div>
     </section>
 
+  
+
+    <section class="ftco-section contact-section">
     <section class="ftco-section ftco-no-pb contact-section">
       <div class="container">
         <div class="row d-flex contact-info">
@@ -105,13 +109,23 @@
         </div>
       </div>
     </section>
-			
-		<section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row block-12">
-          <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-5 contact-form">
-              <div class="form-group">
+
+    <section class="ftco-section contact-section">
+    <div class="colorlib-shop">
+    <div class="container">
+        <div class="row row-pb-md">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="process-wrap">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <form method="post" class="colorlib-form">
+                  
+                  
+                <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
@@ -132,22 +146,63 @@
 <div class="form-group">
   <input id="dp2" type="text" class="form-control clickable input-md" id="DtChkOut" placeholder="&#xf133;  Check-Out">
 </div>
-
-
-
-
-              <div class="form-group">
-                <input type="submit" value="total price" class="btn btn-primary py-3 px-5">
-              </div>
             </form>
-          
-          </div>
-
-          <!-- <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
-          </div>
+            </div>
+            <div class="col-md-5">
+                <div class="cart-detail">
+                    <h2>Cart Total</h2>
+                    <ul>
+                        <li>
+                            <span>Subtotal</span> <span>$100.00</span>
+                            <ul>
+                                <li><span>1 x Product Name</span> <span>$99.00</span></li>
+                                <li><span>1 x Product Name</span> <span>$78.00</span></li>
+                            </ul>
+                        </li>
+                        <li><span>Shipping</span> <span>$0.00</span></li>
+                        <li><span>Order Total</span> <span>$180.00</span></li>
+                    </ul>
+                </div>
+                <div class="cart-detail">
+                    <h2>Payment Method</h2>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="radio">
+                               <label><input type="radio" name="optradio">Direct Bank Tranfer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="radio">
+                               <label><input type="radio" name="optradio">Check Payment</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="radio">
+                               <label><input type="radio" name="optradio">Paypal</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="checkbox">
+                               <label><input type="checkbox" value="">I have read and accept the terms and conditions</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p><a href="{{ url('/bookingcomplete') }}" class="btn btn-primary">Place an order</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
+    </div>
+</div>
     </section>
 
     <section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">

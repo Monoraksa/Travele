@@ -39,7 +39,7 @@
 	          <li class="nav-item active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="{{ url('/destination') }}" class="nav-link">Destination</a></li>
-	          <li class="nav-item"><a href="{{ url('/hotel-resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
+	          <li class="nav-item"><a href="{{ url('/hotel_resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
 	          <li class="nav-item cta"><a href="{{ url('/contact') }}" class="nav-link">Book Now</a></li>
 	          <!-- <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li> -->
 				

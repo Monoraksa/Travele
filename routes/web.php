@@ -13,23 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // Frontend User 
-Route::get('/', function () {
-    return view('travel.index');
-})->name('travel.index');
-Route::get('/about', function(){
-    return view('travel.about');
-});
-Route::get('/destination', function(){
-    return view('travel.destination');
-});
-Route::get('/hotel-resto', function(){
-    return view('travel.hotel-resto');
-});
-Route::get('/contact', function(){
-    return view('travel.contact');
-});
-
-
+// Route::get('/', function () {
+//     return view('travel.index');
+// })->name('travel.index');
+// Route::get('/about', function(){
+//     return view('travel.about');
+// });
+// Route::get('/destination', function(){
+//     return view('travel.destination');
+// });
+// Route::get('/hotel-resto', function(){
+//     return view('travel.hotel-resto');
+// });
+// Route::get('/contact', function(){
+//     return view('travel.contact');
+// });
+// Route::get('/bookingcomplete', function(){
+//     return view('travel.bookingcomplete');
+// });
+Route :: get('/','TraveleController@index');
+Route :: get('/about','TraveleController@about');
+Route :: get('/destination','TraveleController@destination');
+Route :: get('/hotel_resto','TraveleController@hotel_resto');
+Route :: get('/contact','TraveleController@contact');
+Route :: get('/bookingcomplete','TraveleController@bookingcomplete');
 
 // Admin 
 Route::get('/dashboard', function(){
@@ -41,7 +48,4 @@ Route::get('/book',function(){
 
 
 
-// Route :: get('/Travele','TraveleController@index');
-// Route :: get('/hotelresto','TraveleController@hotelresto');
-// Route :: get('/destination','TraveleController@destination');
 
