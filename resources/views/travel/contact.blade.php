@@ -120,20 +120,23 @@
                 </div>
             </div>
         </div>
+        {{-- form action --}}
+        <form method="post" class="colorlib-form" action="{{ url('/processbooking') }}">
+          @csrf
         <div class="row">
             <div class="col-md-7">
-                <form method="post" class="colorlib-form">
+                
                   
                   
                 <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" placeholder="Your Name" name="name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" placeholder="Your Email" name="email">
               </div>
-              <div class="form-group">
+              {{-- <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Destination">
-              </div>
+              </div> --}}
               
               <!-- <div class="form-group">
 
@@ -141,26 +144,26 @@
               check-in and check-out
             -->
             <div class="form-group">
-  <input id="dp1" type="text" class="form-control clickable input-md" id="DtChkIn" placeholder="&#xf133;  Check-In">
+  <input id="dp1" type="text" class="form-control clickable input-md" id="DtChkIn" placeholder="&#xf133;  Check-In" name="checkin">
 </div>
 <div class="form-group">
-  <input id="dp2" type="text" class="form-control clickable input-md" id="DtChkOut" placeholder="&#xf133;  Check-Out">
+  <input id="dp2" type="text" class="form-control clickable input-md" id="DtChkOut" placeholder="&#xf133;  Check-Out" name="checkout">
 </div>
-            </form>
+            
             </div>
             <div class="col-md-5">
                 <div class="cart-detail">
                     <h2>Cart Total</h2>
                     <ul>
-                        <li>
+                        {{-- <li>
                             <span>Subtotal</span> <span>$100.00</span>
                             <ul>
                                 <li><span>1 x Product Name</span> <span>$99.00</span></li>
                                 <li><span>1 x Product Name</span> <span>$78.00</span></li>
                             </ul>
                         </li>
-                        <li><span>Shipping</span> <span>$0.00</span></li>
-                        <li><span>Order Total</span> <span>$180.00</span></li>
+                        <li><span>Shipping</span> <span>$0.00</span></li> --}}
+                        <li><span>Order Total</span> <span>{{ $price }}</span></li>
                     </ul>
                 </div>
                 <div class="cart-detail">
@@ -196,11 +199,14 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p><a href="{{ url('/bookingcomplete') }}" class="btn btn-primary">Place an order</a></p>
+                        {{-- <p><a href="{{ url('/bookingcomplete') }}" class="btn btn-primary">Place an order</a></p> --}}
+                        <button type="submit">Place an order</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
+        </form>
+        {{-- form action --}}
     </div>
 </div>
     </section>

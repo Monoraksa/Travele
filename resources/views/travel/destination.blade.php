@@ -149,9 +149,10 @@
 		    				<img src="images/ch1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$1850</h4>
+							{{-- link redirect to route booking china --}}
+	    					<h4 class="price"><a href="{{ url('/bookchina') }}">$1850</h4> 
 	    					<span>5 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Forbidden city, China</h3>
+	    					<h3><a href="{{ url('/bookchina') }}">Forbidden city, China</h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -176,7 +177,7 @@
 		    				<img src="images/himeji.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$3400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$3400</h4>
 	    					<span>5 Days Tour</span>
 	    					<h3><a href="{{ url('/contact') }}">Himeji , Japan</a></h3>
 	    					<div class="star d-flex clearfix">

@@ -35,17 +35,22 @@ Route :: get('/','TraveleController@index');
 Route :: get('/about','TraveleController@about');
 Route :: get('/destination','TraveleController@destination');
 Route :: get('/hotel_resto','TraveleController@hotel_resto');
-Route :: get('/contact','TraveleController@contact');
+Route :: get('/booking','TraveleController@contact');
 Route :: get('/bookingcomplete','TraveleController@bookingcomplete');
+// Booking
+Route::get('/bookchina', 'BookingController@chinaBooking');
 
+// Store Booking
+Route::post('/processbooking', 'BookingController@processbooking');
 // Admin 
 Route::get('/dashboard', function(){
     return view('admin.index');
 });
-Route::get('/book',function(){
-    return view('admin.book');
+// Admin Place trip
+Route::get('/place', function(){
+    return view('admin.place');
 });
-
-
-
+Route::get('/addPlace', function(){
+    return view('admin.add_place');
+});
 
