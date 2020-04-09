@@ -47,10 +47,7 @@ Route::get('/dashboard', function(){
     return view('admin.index');
 });
 // Admin Place trip
-Route::get('/place', function(){
-    return view('admin.place');
-});
 Route::get('/addPlace', function(){
     return view('admin.add_place');
 });
-
+Route::resource('/place', 'PlaceController');

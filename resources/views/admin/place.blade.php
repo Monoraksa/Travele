@@ -30,24 +30,16 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+    @foreach ($places as $place)
+      <tr>
+        <th scope="row">1</th>
+        <td>{{ $place->place_name }}</td>
+        <td>{{ $place->duration }}</td>
+        <td>{{ $place->price }}</td>
+        <td><img src="{{ asset('img/'. $place->image) }}" alt="img" width="60px" height="60px"></td>
+        <td>action</td>
+      </tr>
+    @endforeach
   </tbody>
 </table>
 </div>
