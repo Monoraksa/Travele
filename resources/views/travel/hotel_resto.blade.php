@@ -40,7 +40,7 @@
 				<li class="nav-item"><a href="{{ url('/about') }}" class="nav-link">About</a></li>
 				<li class="nav-item"><a href="{{ url('/destination') }}" class="nav-link">Destination</a></li>
 				<li class="nav-item"><a href="{{ url('/hotel_resto') }}" class="nav-link">Hotels &amp; Restaurant</a></li>
-				<li class="nav-item cta"><a href="{{ url('/contact') }}" class="nav-link">Book Now</a></li>
+				<li class="nav-item cta"><a href="{{ url('/booking') }}" class="nav-link">Book Now</a></li>
 				<!-- <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li> -->
 				  
 			  </ul>
@@ -139,9 +139,9 @@
 		    				<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price">$600</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$600</h4>
 	    					
-	    					<h3><a href="project.html">New Orleans Hotel</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">New Orleans Hotel</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -168,7 +168,7 @@
 	    				<div class="text">
 	    					
 	    					
-	    					<h3><a href="project.html">New Orleans Hotel Room</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">New Orleans Hotel Room</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -195,7 +195,7 @@
 	    				<div class="text">
 	    					
 	    					
-	    					<h3><a href="project.html">New Orleans Restaurant</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">New Orleans Restaurant</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -220,9 +220,9 @@
 		    				<img src="images/f31.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price">$1100</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$1100</h4>
 	    					
-	    					<h3><a href="project.html">Palma Vanilla Resort</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Palma Vanilla Resort</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -248,7 +248,7 @@
 	    				</div>
 	    				<div class="text">
 	    					
-	    					<h3><a href="project.html">Palma Vanilla Resort</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Palma Vanilla Resort</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -274,7 +274,7 @@
 	    				</div>
 	    				<div class="text">
 	    					
-	    					<h3><a href="project.html">Palma Vanilla Foods</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Palma Vanilla Foods</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -299,9 +299,9 @@
 		    				<img src="images/h31.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price">$1200</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$1200</h4>
 	    					
-	    					<h3><a href="project.html">St Luciants Riverside</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">St Luciants Riverside</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -327,7 +327,7 @@
 	    				</div>
 	    				<div class="text">
 	    					
-	    					<h3><a href="project.html">St Luciants Riverside Restaurant</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">St Luciants Riverside Restaurant</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -353,7 +353,7 @@
 	    				</div>
 	    				<div class="text">
 	    					
-	    					<h3><a href="project.html">St Luciants Riverside Bar</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">St Luciants Riverside Bar</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>

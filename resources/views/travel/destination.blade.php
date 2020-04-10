@@ -149,7 +149,7 @@
 		    				<img src="images/ch1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-							{{-- link redirect to route booking china --}}
+							<!-- {{-- link redirect to route booking china --}} -->
 	    					<h4 class="price"><a href="{{ url('/bookchina') }}">$1850</h4> 
 	    					<span>5 Days Tour</span>
 	    					<h3><a href="{{ url('/bookchina') }}">Forbidden city, China</h3>
@@ -204,9 +204,9 @@
 		    				<img src="images/ba2.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$600</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$600</h4>
 	    					<span>4 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">North Bali, Indonesia</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">North Bali, Indonesia</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -231,9 +231,9 @@
 		    				<img src="images/my1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$450</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$450</h4>
 	    					<span>3 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Shwedagon, Myanmar</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Shwedagon, Myanmar</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -258,9 +258,9 @@
 		    				<img src="images/london.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$4400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$4400</h4>
 	    					<span>4 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">London, England</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">London, England</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -285,9 +285,9 @@
 		    				<img src="images/du3.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$8400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$8400</h4>
 	    					<span>4 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Burj Dubai, UAE</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Burj Dubai, UAE</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -312,9 +312,9 @@
 		    				<img src="images/destination-7.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$4400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$4400</h4>
 	    					<span>4 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Paris, France</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Paris, France</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -339,9 +339,9 @@
 		    				<img src="images/lt1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$6800</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$6800</h4>
 	    					<span>4 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Leaning Tower Pisa, Italy</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Leaning Tower Pisa, Italy</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -366,9 +366,9 @@
 		    				<img src="images/mal1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$400</h4>
 	    					<span>3 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Kuala Lumpur, Malaysia</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Kuala Lumpur, Malaysia</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -393,9 +393,9 @@
 		    				<img src="images/wp1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$240</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$240</h4>
 	    					<span>3 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Wat Phu, Thailand</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Wat Phu, Thailand</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -420,9 +420,9 @@
 		    				<img src="images/ts12.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$3400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$3400</h4>
 	    					<span>3 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Time Square, NYC</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Time Square, NYC</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
@@ -447,9 +447,9 @@
 		    				<img src="images/mf1.jpg" class="img-fluid" alt="Colorlib Template">
 	    				</div>
 	    				<div class="text">
-	    					<h4 class="price"><a href="{{ url('/contact') }}">$3400</h4>
+	    					<h4 class="price"><a href="{{ url('/booking') }}">$3400</h4>
 	    					<span>5 Days Tour</span>
-	    					<h3><a href="{{ url('/contact') }}">Mount Fuji, Japan</a></h3>
+	    					<h3><a href="{{ url('/booking') }}">Mount Fuji, Japan</a></h3>
 	    					<div class="star d-flex clearfix">
 	    						<div class="mr-auto float-left">
 		    						<span class="ion-ios-star"></span>
