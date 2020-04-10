@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 // use lluminate\Routing\Controllerl;
 use Illuminate\Support\Facades\DB;
-
+use App\Place;
 //use Illuminate\Contracts\Container\BindingResolutionException;
 
 
@@ -19,7 +19,8 @@ class TraveleController extends Controller
         return view("travel.about");
     }
     function destination(){
-        return view("travel.destination");
+        $place = Place::all();
+        return view("travel.destination")->with('places', $place);
     }
     function hotel_resto(){
         return view("travel.hotel_resto");

@@ -38,7 +38,7 @@ Route :: get('/hotel_resto','TraveleController@hotel_resto');
 Route :: get('/booking','TraveleController@contact');
 Route :: get('/bookingcomplete','TraveleController@bookingcomplete');
 // Booking
-Route::get('/bookchina', 'BookingController@chinaBooking');
+Route::get('/book/{id}', 'BookingController@booking');
 
 // Store Booking
 Route::post('/processbooking', 'BookingController@processbooking');
@@ -51,3 +51,4 @@ Route::get('/addPlace', function(){
     return view('admin.add_place');
 });
 Route::resource('/place', 'PlaceController');
+Route::get('/editPlace/{id}', 'PlaceController@edit');

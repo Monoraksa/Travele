@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class BookingController extends Controller
 {
-    public function chinaBooking(){
+    public function booking(){
         $price = 1850;
         return view('travel.contact')->with('price', $price);
     }

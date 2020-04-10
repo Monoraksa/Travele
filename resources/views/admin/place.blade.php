@@ -26,18 +26,28 @@
       <th scope="col">Place</th>
       <th scope="col">Duration</th>
       <th scope="col">Price</th>
+      <th scope="col">Image</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
   <tbody>
-    @foreach ($places as $place)
+    @foreach ($places as $key => $place)
       <tr>
-        <th scope="row">1</th>
+        <th scope="row">{{ $key+1 }}</th>
         <td>{{ $place->place_name }}</td>
         <td>{{ $place->duration }}</td>
         <td>{{ $place->price }}</td>
-        <td><img src="{{ asset('img/'. $place->image) }}" alt="img" width="60px" height="60px"></td>
-        <td>action</td>
+        <td><img src="{{ asset('images/'. $place->image) }}" alt="img" width="40px" height="40px"></td>
+        <td>
+          <form action="{{ route('place.edit', $place->id) }}" method="get" class="d-inline">
+            <button type="submit" class="btn btn-warning"><i class="fa fa-edit"></i></button>
+          </form>
+          <form action="{{ route('place.destroy', $place->id) }}" method="post" class="d-inline">
+            {{ csrf_field() }}
+            {{ method_field('DELETE') }}
+            <button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+          </form>
+        </td>
       </tr>
     @endforeach
   </tbody>

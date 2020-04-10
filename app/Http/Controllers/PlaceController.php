@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Place;
+Use File;
 
 class PlaceController extends Controller
 {
@@ -44,12 +45,15 @@ class PlaceController extends Controller
             'image' => 'required|image'
         ]);
         // store data to database
-        $images = $request->image->store('images');
+        $images = $request->file('image');
+        $imageName = $images->getClientOriginalName();
+        $imageNameUnique = $imageName.'_'.time();
+        $images->move('images', $imageNameUnique);
         Place::create([
             'place_name' => $request->name,
             'duration' => $request->duration,
             'price' => $request->price,
-            'image' => $images
+            'image' => $imageNameUnique
         ]);
 
         return redirect()->route('place.index');
@@ -74,7 +78,8 @@ class PlaceController extends Controller
      */
     public function edit($id)
     {
-        //
+        $place = Place::find($id);
+        return view('admin.edit_place')->with('place', $place);
     }
 
     /**
@@ -97,6 +102,8 @@ class PlaceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $place = Place::find($id);
+        $place->delete();
+        return redirect()->route('place.index');
     }
 }
